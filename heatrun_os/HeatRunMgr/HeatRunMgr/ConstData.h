@@ -1,0 +1,114 @@
+#ifndef _CONSTDATA_H_
+#define _CONSTDATA_H_
+#include <Windows.h>
+
+extern BYTE SetPowerOn[13];
+extern BYTE SetPowerOff[13];
+extern BYTE SetLampTimeReset[13];
+extern BYTE SetFactoryMode[13];
+extern BYTE SetUserMode[13];
+extern BYTE SetWhitePlane[13];
+extern BYTE SetPatternModeOn[13];
+extern BYTE SetPatternModeOff[13]; 
+extern BYTE SetPlaneRGB[13];
+extern BYTE SetPlaneR255[13];
+extern BYTE SetPlaneG255[13];
+extern BYTE SetPlaneB255[13];
+extern BYTE SetPlaneR0[13];
+extern BYTE SetPlaneG0[13];
+extern BYTE SetPlaneB0[13];
+extern BYTE SetR_0[13];
+extern BYTE SetG_0[13];
+extern BYTE SetB_0[13];
+extern BYTE SetW_0[13];
+extern BYTE SetR_14[13];
+extern BYTE SetG_14[13];
+extern BYTE SetB_14[13];
+extern BYTE SetW_14[13];
+extern BYTE SetR_29[13];
+extern BYTE SetG_29[13];
+extern BYTE SetB_29[13];
+extern BYTE SetW_29[13];
+extern BYTE SetR_43[13];
+extern BYTE SetG_43[13];
+extern BYTE SetB_43[13];
+extern BYTE SetW_43[13];
+extern BYTE SetR_75[13];
+extern BYTE SetG_75[13]; 
+extern BYTE SetB_75[13];
+extern BYTE SetW_75[13];
+extern BYTE SetR_86[13];
+extern BYTE SetG_86[13];
+extern BYTE SetB_86[13];
+extern BYTE SetW_86[13];
+extern BYTE SetR_90[13];
+extern BYTE SetG_90[13];
+extern BYTE SetB_90[13];
+extern BYTE SetW_90[13];
+extern BYTE SetR_93[13];
+extern BYTE SetG_93[13];
+extern BYTE SetB_93[13];
+extern BYTE SetW_93[13];
+extern BYTE SetR_100[13];
+extern BYTE SetG_100[13];
+extern BYTE SetB_100[13];
+extern BYTE SetW_100[13];
+extern BYTE SetGrayScaleW[13];
+extern BYTE RevercedGrayScanW[13];
+extern BYTE SetFrontDesktop[13];
+extern BYTE SetRearDesktop[13];
+extern BYTE SetRearCeiling[13];
+extern BYTE SetFrontCeiling[13];
+extern BYTE SetStandbyNormal[13];
+extern BYTE SetStandbySaving[13];
+extern BYTE SetECOModeOff[13];
+extern BYTE SetECOMode1[13];
+extern BYTE SetECOMode2[13];
+extern BYTE SetECOIntelligent[13];
+extern BYTE SetECOModeSaver[13];
+extern BYTE SetAutoECOModeOff[13];
+extern BYTE SetAutoECOModeOn[13];
+extern BYTE SetAutoPowerOff32[13];
+
+
+
+extern BYTE GetPowerStatus[13];
+extern BYTE GetLamp1TimeLow[13];
+extern BYTE GetLamp1TimeHigh[13];
+extern BYTE GetLamp2TimeLow[13];
+extern BYTE GetLamp2TimeHigh[13];
+extern BYTE GetFilterTimeLow[13];
+extern BYTE GetFilterTimeHigh[13];
+extern BYTE GetPWYear[13];
+extern BYTE GetPWMonth[13];
+extern BYTE GetPWDay[13];
+extern BYTE GetPWHour[13];
+extern BYTE GetPWMinute[13];
+extern BYTE GetPWSecond[13];
+extern BYTE GetOSYear[13];
+extern BYTE GetOSMonth[13];
+extern BYTE GetOSDay[13];
+extern BYTE GetOSHour[13];
+extern BYTE GetOSMinute[13];
+extern BYTE GetOSSecond[13];
+extern BYTE GetHtmlVersion1[13];
+extern BYTE GetHtmlVersion2[13];
+extern BYTE GetInstallation[13];
+extern BYTE GetStandbyMode[13];
+extern BYTE GetECOMode[13];
+extern BYTE GetAutoECOMode[13];
+extern BYTE GetAutoPowerOff[13];
+extern BYTE GetWiredIpAdd1st[13];
+extern BYTE GetWiredIpAdd2nd[13];
+extern BYTE GetWiredIpAdd3rd[13];
+extern BYTE GetWiredIpAdd4th[13];
+extern BYTE GetMacAdd1st[13];
+extern BYTE GetMacAdd2nd[13];
+extern BYTE GetMacAdd3rd[13];    
+extern BYTE GetMacAdd4th[13];
+extern BYTE GetMacAdd5th[13];
+extern BYTE GetMacAdd6th[13];
+
+
+
+#endif // _CONSTDATA_H_
